@@ -183,7 +183,7 @@ def descr_analysis(file):
     print("\nAccording to Gender:\n")
     print(black.groupby('GENDER').size())
 
-    # display(black.head())
+    display(black.head())
     # black.drop(['USER_ID','PRODUCT_ID'],axis='columns')
     # black.convert_objects(convert_numeric= True)
 
